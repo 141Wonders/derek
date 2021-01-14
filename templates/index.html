@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DEREK HENRIQUEZ</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="{{  url_for('hello_world') }}" class="logo">
+									<span class="symbol"><img src="static/images/logo.svg" style="width:210px;height:210px;"alt="" /></span><span class="title">Derek Henriquez</span>
+								</a>
+
+							<a href="{{  url_for('about_derek') }}" class="logo2">
+								<span class="title">About</span>
+							</a>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div id="Vimeo_Player"></div>
+  						<script src="https://player.vimeo.com/api/player.js"></script>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<section class="tiles">
+
+								{% for result in main_result %}
+								<article id="{{ result.link }}">
+									<span class="image">
+										<img src="{{ thumbnail_list[loop.index0] }} "alt="" />
+									</span>
+
+									<a href="#menu">
+										<div class="content">
+											<p>{{ result.name }}</p>
+										</div>
+									</a>
+
+										<script>
+											console.log(document.getElementById('{{ result.link }}'));
+										</script>
+
+								</article>
+								{%endfor%}
+
+							</section>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>

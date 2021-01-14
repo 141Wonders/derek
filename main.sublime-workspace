@@ -1,0 +1,347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filt",
+				"filter_video_data"
+			],
+			[
+				"video",
+				"videoPlayer"
+			],
+			[
+				"name",
+				"name_result"
+			],
+			[
+				"nam",
+				"name_result"
+			],
+			[
+				"uri",
+				"uri_result"
+			],
+			[
+				"deco",
+				"decode_json"
+			],
+			[
+				"data",
+				"data_decoded"
+			],
+			[
+				"vide",
+				"video_data"
+			],
+			[
+				"vid",
+				"video_dict"
+			],
+			[
+				"pa",
+				"parsed_result"
+			],
+			[
+				"a",
+				"about_me"
+			],
+			[
+				"j",
+				"j_result"
+			],
+			[
+				"jso",
+				"json_data"
+			],
+			[
+				"json",
+				"json_data"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"FONT",
+				"font-size\tproperty"
+			],
+			[
+				"ema",
+				"EmailSignup"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"db",
+				"db_uri"
+			],
+			[
+				"f",
+				"full_name"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 172.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/elliothenriquez/webdev/derek/static/css/main.css",
+		"/Users/elliothenriquez/webdev/derek/static/js/main.js",
+		"/Users/elliothenriquez/webdev/derek/static/css/noscript.css",
+		"/Users/elliothenriquez/webdev/derek/main.py",
+		"/Users/elliothenriquez/webdev/derek/__init__.py",
+		"/Users/elliothenriquez/webdev/derek/wsgi.py",
+		"/Users/elliothenriquez/webdev/derek/views.py",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/templates/index.html",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/views.py",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/static/images/logo.svg",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/templates/generic.html",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/templates/elements.html",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/index.html",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/__init__.py",
+		"/Users/elliothenriquez/webdev/d_henriq/.idea/misc.xml",
+		"/Users/elliothenriquez/webdev/html5up-phantom/index.html",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/templates/work_page.html",
+		"/Users/elliothenriquez/webdev/d_henriq/landing/static/css/work_page.css",
+		"/C/Users/ellio/sitedev/d_henriq/landing/__init__.py",
+		"/C/Users/ellio/sitedev/d_henriq/landing/views.py",
+		"/C/Users/ellio/sitedev/d_henriq/landing/templates/base.html",
+		"/C/Users/ellio/sitedev/d_henriq/landing/static/css/work_page.css",
+		"/C/Users/ellio/sitedev/d_henriq/landing/templates/work_page.html",
+		"/C/Users/ellio/sitedev/d_henriq/.git/COMMIT_EDITMSG",
+		"/C/Users/ellio/sitedev/d_henriq/static/work_page.css",
+		"/C/Users/ellio/sitedev/d_henriq/landing/static/work.css",
+		"/C/Users/ellio/sitedev/d_henriq/landing/static/base.html",
+		"/C/Users/ellio/sitedev/d_henriq/landing/templates/css/work.css",
+		"/C/Users/ellio/sitedev/d_henriq/landing/templates/work.html",
+		"/C/Users/ellio/sitedev/d_henriq/landing/css/work.css",
+		"/C/Users/ellio/sitedev/d_henriq/landing/templates/about.html",
+		"/C/Users/ellio/sitedev/d_henriq/landing/templates/contact.html",
+		"/C/Users/ellio/sitedev/d_henriq/wsgi.py",
+		"/C/Users/ellio/sitedev/d_henriq/fgfe",
+		"/C/Users/ellio/sitedev/d_henriq/d_henriq.sublime-project",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/landing.html",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/base.html",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/contact.html",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/contact_list.html",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/navbar.html",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/wonton.css",
+		"/C/Users/ellio/sitedev/majesty/landing/styles/wonton.css",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/test.css",
+		"/C/Users/ellio/sitedev/majesty/landing/views.py",
+		"/C/Users/ellio/sitedev/majesty/landing/contact/__init__.py",
+		"/C/Users/ellio/sitedev/majesty/landing/contact/forms.py",
+		"/C/Users/ellio/sitedev/majesty/landing/contact/models.py",
+		"/C/Users/ellio/sitedev/majesty/landing/contact/views.py",
+		"/C/Users/ellio/sitedev/majesty/hello.py",
+		"/C/Users/ellio/sitedev/majesty/landing/templates/success.html",
+		"/C/Users/ellio/sitedev/majesty/landing/__init__.py",
+		"/C/Users/ellio/sitedev/majesty/landing/db.sqlite3",
+		"/C/Users/ellio/sitedev/majesty/majesty.sublime-project",
+		"/C/Users/ellio/sitedev/majesty/wsgi.py",
+		"/C/Users/ellio/sitedev/majesty/views/views.py",
+		"/C/Users/ellio/sitedev/majesty/views/__init__.py",
+		"/C/Users/ellio/sitedev/majesty/__init__.py",
+		"/C/Users/ellio/sitedev/derek_henriquez/wsgi.py",
+		"/C/Users/ellio/sitedev/derek_henriquez/dev/home.py",
+		"/C/Users/ellio/sitedev/derek_henriquez/hello2.py",
+		"/C/Users/ellio/sitedev/derek_henriquez/dev/hello.py",
+		"/C/Users/ellio/sitedev/derek_henriquez/derek_henriquez.sublime-project",
+		"/C/Users/ellio/Dev/flasklanding/landing/templates/home.html",
+		"/C/Users/ellio/Dev/flasklanding/landing/views.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/home/forms.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/__init__.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/home/views.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/home/__init__.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/templates/profiles_details.html",
+		"/C/Users/ellio/Dev/flasklanding/landing/templates/profiles_list.html",
+		"/C/Users/ellio/Dev/flasklanding/landing/templates/base.html",
+		"/C/Users/ellio/Dev/flasklanding/landing/jobs/views.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/jobs/__init__.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/profiles/views.py",
+		"/C/Users/ellio/Dev/flasklanding/landing/profiles/__init__.py",
+		"/C/Users/ellio/Dev/flasklanding/wsgi.py",
+		"/C/Users/ellio/Dev/flasklanding/flasklanding.py",
+		"/C/Users/ellio/Dev/flasklanding.py",
+		"/C/Users/ellio/Dev/flasklanding.sublime"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"landing\\views.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\ellio\\sitedev\\derek_henriquez\\wsgi.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 165.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
