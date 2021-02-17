@@ -46,9 +46,10 @@ for i in range(len(main_result)):
 def hello_world():
     return render_template('index.html', main_result=main_result, thumbnail_list=thumbnail_list)
 
-@app.route('/about')
-def about_derek():
+@app.route('/campaign/')
+def campaign():
 	return render_template('generic.html')
+
 
 
 if __name__ == '__main__':    

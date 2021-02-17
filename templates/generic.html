@@ -1,59 +1,87 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Generic</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="static/css/main.css" />
-		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/static/css/main.css" />
+		<link rel="stylesheet" href="/static/css/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="shortcut icon" type="image/jpg" href="/static/images/logo_favi.png"/>
 	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<div id="logo">
+					<a class="navbar-brand" href="{{  url_for('hello_world') }}">
+						<img class="img-fluid align-middle ms-1" src="static/images/derek_logo.png" alt="Logo picture">
+					</a>
+				</div>
+				
+				<div id="vimeo_profile">	
+					<a class="navbar-item me-3" href="https://vimeo.com/derekhenriquez">
+						<i class="fa fa-vimeo-square fa-2x" aria-hidden="true" id="vimeo-icon"></i>
+					</a>
+				</div>
+				
 
-							<!-- Logo -->
-								<a href="{{  url_for('hello_world') }}" class="logo">
-									<span class="symbol"><img src="static/images/logo.svg" style="width:210px;height:210px;" alt="" /></span><span class="title">Derek Henriquez</span>
-								</a>
+				<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
 
-							<a href="{{  url_for('about_derek') }}" class="logo2">
-								<span class="title">About</span>
-							</a>
-
-						</div>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-			
-
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<section class="tiles">
-
-
-
-							</section>
-						</div>
-					</div>
+    			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			      <div class="navbar-nav">
+			        <a class="nav-link active" aria-current="page" href="#">Home</a>
+			        <a class="nav-link" href="#">Features</a>
+			        <a class="nav-link" href="#">Pricing</a>
+			        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			      </div>
+			    </div> -->
+		
 			</div>
+		</nav>
+
+		<!-- <section id="section-hero" class="text-center text-white d-flex jusitfy-content-center align-items-center mt-2">
+			<div class="container mt-5 pt-3">
+				<figure class="figure text-center mt-3" id="portrait-img">
+					<img class="figure-img img-fluid border border-ligfht border-3 rounded-3" src="static/images/portrait.png" alt="portrait image">
+				</figure>
+				<div>
+					<h4 class="text-white">"Don't let your dreams be dreams."</h4>
+				</div>
+			</div>
+		</section> -->
+
+		<section id="section-work" class="text-center text-white d-flex jusitfy-content-center align-items-center">
+			<div class="container mt-2">
+				<h1 class ="display-1 text-uppercase text-decoration-underline">Latest Work</h1>
+			</div>
+		</section>
+
+		<section id="section-gallery">
+			<div class="container mt-2">
+				  <div class="row row-cols-3">
+				  	{% for result in main_result %}
+				    <div class="col-12 col-md-6 col-xl-4">
+						<a href="portfolio-item.html">
+							<figure class="figure text-center">
+								<img class="figure-img img-fluid border border-dark border-3 rounded-3" src="{{thumbnail_list[loop.index0]}}" alt="Portfolio Item Heading">
+
+								<div class="font-monospace fw-bolder text-uppercase text-light " id="title-text">
+									<h5>{{ result.name }}</h5>
+								</div>
+
+							</figure>
+						</a>
+					</div>
+					{% endfor %}
+				  </div>
+			</div>
+		</section>
 
 		<!-- Scripts -->
-			<script src="static/js/jquery.min.js"></script>
-			<script src="static/js/browser.min.js"></script>
-			<script src="static/js/breakpoints.min.js"></script>
-			<script src="static/js/util.js"></script>
-			<script src="static/js/main.js"></script>
+			<script src="/static/js/bootstrap.bundle.min.js"></script>
 
 	</body>
 </html>
